@@ -47,7 +47,9 @@ const Navigation = () => {
             </NavItem>
             <NavItem>
               <NavLink href="https://safespace-frontend.netlify.com/">
-                <Button color="primary">Sign up</Button>
+                <Button className="signup-btn" color="primary">
+                  Sign up
+                </Button>
               </NavLink>
             </NavItem>
           </Nav>
