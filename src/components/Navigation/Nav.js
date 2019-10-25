@@ -23,7 +23,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar className="navbar" color="light" light expand="md">
+      <Navbar className="navbar" light expand="md">
         <NavbarBrand href="/">
           <img
             src={NavLogo}

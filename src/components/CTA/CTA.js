@@ -8,7 +8,7 @@ export default function CTA() {
   return (
     <Carousel
       infiniteLoop
-      // autoPlay
+      autoPlay
       showArrows={true}
       showStatus={false}
       showThumbs={false}
