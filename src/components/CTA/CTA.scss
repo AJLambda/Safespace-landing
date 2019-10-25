@@ -1,0 +1,90 @@
+.control-prev.control-arrow {
+  &::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.1em solid white !important;
+    border-top: 0.1em solid white !important;
+    border-bottom: 0 !important;
+    left: 4px;
+    top: 2px;
+    transform: rotate(225deg);
+    margin: 0 !important;
+    margin-right: 0.5em;
+  }
+}
+
+.control-next.control-arrow {
+  &::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.1em solid white !important;
+    border-top: 0.1em solid white !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    transform: rotate(45deg);
+    margin: 0 !important;
+    margin-right: 0.5em;
+    right: 4px;
+    top: 2px;
+  }
+}
+
+.control-arrow.control-prev {
+  margin: auto !important;
+}
+.control-arrow.control-next {
+  margin: auto !important;
+}
+
+.control-prev.control-arrow {
+  left: 40px !important;
+}
+
+.control-next.control-arrow {
+  right: 40px !important;
+}
+
+.control-arrow {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+
+  opacity: 0.8 !important;
+  //   height: 50px;
+  //   padding: 30px !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+
+  &:hover {
+    opacity: 1 !important;
+    // background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+.carousel-slider {
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 100% 80px; // across half & up 200px at left edge
+  border-bottom-right-radius: 100% 80px; // across half & up 200px at right edge
+  padding-bottom: 0px;
+  overflow: hidden; // make larger, hide side bits
+
+  //   height: 29rem;
+
+  //    &::after {
+  //   content: '';
+  //   display: block;
+  //   position: absolute;
+  //   bottom: -5px;
+  //   left: 0;
+  //   right: 0;
+  //   height: 4rem;
+  //   background: url(/assets/pages/shared/hero/white-curve-bd8c08b….svg) no-repeat bottom;
+  //   background-size: 110%;
+  //    }
+}

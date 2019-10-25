@@ -43,7 +43,9 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Sign in</NavLink>
+              <NavLink href="https://safespace-frontend.netlify.com/">
+                Sign in
+              </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://safespace-frontend.netlify.com/">
