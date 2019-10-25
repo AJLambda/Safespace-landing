@@ -36,10 +36,11 @@
 }
 
 .control-arrow.control-prev {
-  margin: auto !important;
+  //   margin-bottom: 100px !important;
+  margin-top: 13% !important;
 }
 .control-arrow.control-next {
-  margin: auto !important;
+  margin-top: 13% !important;
 }
 
 .control-prev.control-arrow {
@@ -66,25 +67,37 @@
   }
 }
 
-.carousel-slider {
+// .carousel-slider {
+//   position: relative;
+//   overflow: hidden;
+//   border-bottom-left-radius: 100% 80px;
+//   border-bottom-right-radius: 100% 80px;
+//   padding-bottom: 0px;
+//   overflow: hidden;
+// }
+
+.axis-horizontal {
   position: relative;
   overflow: hidden;
-  border-bottom-left-radius: 100% 80px; // across half & up 200px at left edge
-  border-bottom-right-radius: 100% 80px; // across half & up 200px at right edge
+  border-bottom-left-radius: 100% 80px;
+  border-bottom-right-radius: 100% 80px;
   padding-bottom: 0px;
-  overflow: hidden; // make larger, hide side bits
+  overflow: hidden;
+}
+.control-dots {
+  position: relative !important;
+  top: 15px;
 
-  //   height: 29rem;
+  .dot {
+    border: 2px solid #3bbfc0;
+    width: 14px !important;
+    height: 14px !important;
+    box-shadow: none !important;
+  }
 
-  //    &::after {
-  //   content: '';
-  //   display: block;
-  //   position: absolute;
-  //   bottom: -5px;
-  //   left: 0;
-  //   right: 0;
-  //   height: 4rem;
-  //   background: url(/assets/pages/shared/hero/white-curve-bd8c08b….svg) no-repeat bottom;
-  //   background-size: 110%;
-  //    }
+  //   margin-bottom: -30px !important;
+}
+
+li.dot.selected {
+  background: #3bbfc0 !important;
 }

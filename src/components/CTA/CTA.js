@@ -10,6 +10,11 @@ export default function CTA() {
       autoPlay
       showArrows={true}
       showStatus={false}
+      showThumbs={false}
+      interval={5000}
+      transitionTime={1200}
+      stopOnHover={false}
+
       // onChange={onChange}
       // onClickItem={onClickItem}
       // onClickThumb={onClickThumb}
