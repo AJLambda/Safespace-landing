@@ -1,0 +1,51 @@
+// Color Assignments
+$gray: #e8f2fb;
+$light-gray: #eeeff1;
+
+$blue: #416db4;
+// $blue: #81d0e1;
+$red: #bb0a21;
+$black: #252627;
+$dark-black: #21201f;
+$white: #fff9fb;
+$light-blue: #d3e0e8;
+$dark-blue: #00a9b6;
+$snow: #fbf9f8;
+// Escaping
+$mobile: 475px;
+$tablet: 800px;
+
+// Fonts
+@font-face {
+  font-family: "CircularStd";
+  src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
+  src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Bungee";
+  src: url("./Fonts/Bungee-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaBold";
+  src: url("../fonts/ProximaNovaBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Proxima";
+  src: url("../fonts/ProximaNovaRegular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "friday";
+  src: url("../fonts/friday.otf") format("truetype");
+}

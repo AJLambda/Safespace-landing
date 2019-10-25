@@ -1,0 +1,26 @@
+nav {
+  font-size: 0.75em;
+  padding: 1.5em 12% !important;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+    }
+
+    .nav-title-wrapper {
+    }
+    .nav-title {
+      // margin-top: 5px;
+      font-family: "Bungee", sans-serif;
+      font-weight: 500;
+      font-size: 23px;
+    }
+    .nav-undertitle {
+      margin-top: -7px;
+      font-size: 8px;
+    }
+  }
+}
