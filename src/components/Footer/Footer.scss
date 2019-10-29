@@ -33,13 +33,20 @@
     margin: 10px 12% 0 12%;
     text-align: left;
     font-size: 12px;
+
+    .terms {
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 
   .contact {
     align-content: center;
 
     h6 {
-      margin: 10px;
+      margin: 15px;
+      font-family: "Bungee", sans-serif;
     }
 
     .contact-icons {
@@ -48,19 +55,39 @@
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+
+      .social-img {
+        transition: transform 0.2s;
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+      }
     }
   }
 
   .left-box {
     margin-top: 30px;
-    width: 30%;
+    width: 50%;
+
+    .site-name {
+      font-family: "Bungee", sans-serif;
+    }
+
+    p {
+      padding-right: 50px;
+    }
   }
   .right-box {
     margin-top: 30px;
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    h6 {
+      font-family: "Bungee", sans-serif;
+    }
 
     .links {
       display: flex;

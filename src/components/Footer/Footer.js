@@ -19,16 +19,19 @@ export default function Footer() {
               style={{ width: "40px", height: "40px" }}
             ></img> */}
             <img
+              className="social-img"
               src={facebookImg}
               alt="facebook"
               style={{ width: "40px", height: "40px" }}
             ></img>
             <img
+              className="social-img"
               src={twitterImg}
               alt="twitter"
               style={{ width: "40px", height: "40px" }}
             ></img>
             <img
+              className="social-img"
               src={instagramImg}
               alt="instagram"
               style={{ width: "40px", height: "40px" }}
@@ -37,7 +40,7 @@ export default function Footer() {
         </div>
         <div className="footer-container">
           <div className="left-box">
-            <h6>SAFESPACE</h6>
+            <h6 className="site-name">SAFESPACE</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               porttitor nibh eget imperdiet facilisis.
@@ -61,7 +64,9 @@ export default function Footer() {
         <div className="copyright">
           <div className="copyright-text">
             Copyright 2019, Safespace <span>&#8226;</span>{" "}
-            <b>Privacy | Terms of Service</b>
+            <span className="terms">
+              <b>Privacy | Terms of Service</b>
+            </span>
           </div>
         </div>
       </div>

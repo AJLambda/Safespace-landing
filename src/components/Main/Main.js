@@ -4,7 +4,6 @@ import mainImg2 from "../Images/cta2new.png";
 import mainImg3 from "../Images/cta3new.png";
 import chatImg from "../Images/chatbub3.png";
 import chatImg1 from "../Images/chatbub.png";
-import wave from "../Images/wave2.png";
 import stressImg from "../Images/stress.svg";
 import anxietyImg from "../Images/anxiety.svg";
 import depressionImg from "../Images/depression.svg";
