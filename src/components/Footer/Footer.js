@@ -1,10 +1,70 @@
 import React from "react";
+
+import twitterImg from "../Images/twitter.png";
+import facebookImg from "../Images/facebook.png";
+import instagramImg from "../Images/instagram.png";
 import "./Footer.scss";
 
 export default function Footer() {
   return (
     <>
-      <div className="footer"></div>
+      <div className="footer">
+        <div className="contact">
+          <h6>SOCIAL MEDIA</h6>
+
+          <div className="contact-icons">
+            {/* <img
+              src={instaImg}
+              alt="instagram"
+              style={{ width: "40px", height: "40px" }}
+            ></img> */}
+            <img
+              src={facebookImg}
+              alt="facebook"
+              style={{ width: "40px", height: "40px" }}
+            ></img>
+            <img
+              src={twitterImg}
+              alt="twitter"
+              style={{ width: "40px", height: "40px" }}
+            ></img>
+            <img
+              src={instagramImg}
+              alt="instagram"
+              style={{ width: "40px", height: "40px" }}
+            ></img>
+          </div>
+        </div>
+        <div className="footer-container">
+          <div className="left-box">
+            <h6>SAFESPACE</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              porttitor nibh eget imperdiet facilisis.
+            </p>
+          </div>
+
+          <div className="right-box">
+            <div className="links">
+              <h6>USEFUL LINKS</h6>
+              <a href="https://safespace-frontend.netlify.com">Login</a>
+              <a>Blog</a>
+              <a>Contact Us</a>
+            </div>
+            <div className="product">
+              <h6>PRODUCT</h6>
+              <a>Features</a>
+              <a>Pricing</a>
+            </div>
+          </div>
+        </div>
+        <div className="copyright">
+          <div className="copyright-text">
+            Copyright 2019, Safespace <span>&#8226;</span>{" "}
+            <b>Privacy | Terms of Service</b>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
