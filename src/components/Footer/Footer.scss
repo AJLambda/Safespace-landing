@@ -78,6 +78,10 @@
     // margin-top: 30px;
     width: 50%;
 
+    @media (max-width: "425px") {
+      margin-top: 10px;
+    }
+
     .site-name {
       font-family: "Bungee", sans-serif;
     }
@@ -86,6 +90,7 @@
       display: none;
       @media (max-width: "425px") {
         display: block;
+        padding: 0;
       }
     }
 
@@ -106,6 +111,10 @@
     flex-direction: row;
     justify-content: flex-end;
 
+    @media (max-width: "425px") {
+      margin-top: 10px;
+    }
+
     h6 {
       font-family: "Bungee", sans-serif;
     }
@@ -116,6 +125,7 @@
 
       @media (max-width: "425px") {
         color: black;
+        display: none;
       }
 
       a {
