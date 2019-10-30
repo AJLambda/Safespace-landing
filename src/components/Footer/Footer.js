@@ -41,10 +41,11 @@ export default function Footer() {
         <div className="footer-container">
           <div className="left-box">
             <h6 className="site-name">SAFESPACE</h6>
-            <p>
+            <p className="site-text">
               Here to help build a healthier, happier you. A text a day might
               just keep the doctor away.
             </p>
+            <p className="site-text-mobile">Building healthy minds.</p>
           </div>
 
           <div className="right-box">
@@ -52,7 +53,7 @@ export default function Footer() {
               <h6>USEFUL LINKS</h6>
               <a href="https://safespace-frontend.netlify.com">Login</a>
               <a>Blog</a>
-              <a>Contact Us</a>
+              {/* <a>Contact Us</a> */}
             </div>
             <div className="product">
               <h6>PRODUCT</h6>

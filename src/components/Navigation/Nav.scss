@@ -9,6 +9,20 @@ nav {
   left: 0;
   z-index: 1030;
 
+  @media (max-width: "320px") {
+    a.navbar-brand {
+      margin-right: 2px !important;
+    }
+
+    .nav-title {
+      font-size: 20px !important;
+    }
+
+    .nav-undertitle {
+      font-size: 7px !important;
+    }
+  }
+
   .navbar-brand {
     display: flex;
     align-items: center;
@@ -52,6 +66,13 @@ nav {
     }
     &:focus {
       background-color: #3bbfc0;
+    }
+  }
+
+  .nav-logo-bubble {
+    @media (max-width: 425px) {
+      width: 35px;
+      height: 35px;
     }
   }
 }

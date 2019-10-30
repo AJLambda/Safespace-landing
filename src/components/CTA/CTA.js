@@ -11,11 +11,11 @@ export default function CTA() {
       {/* Carousel */}
       <Carousel
         infiniteLoop
-        autoPlay
+        // autoPlay
         showArrows={true}
         showStatus={false}
         showThumbs={false}
-        interval={5000}
+        interval={6000}
         transitionTime={1200}
         stopOnHover={false}
       >
@@ -36,7 +36,7 @@ export default function CTA() {
         </div>
         <div className="slide-wrap" id="two">
           <div className="slide-content">
-            <h1>Pschiatrist-Based Methods</h1>
+            <h1>Psychology-Based Methods</h1>
             <p>
               Safespace uses evidence-based psychology to help you tackle mental
               health challenges and develop your mental skills

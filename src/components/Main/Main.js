@@ -50,7 +50,7 @@ export default function Main() {
               alt="avatar"
               style={{ height: "230px", width: "263px" }}
             />
-            <p>Schedule your text reminders</p>
+            <p>Schedule text reminders</p>
           </div>
           <div className="step-item">
             <img

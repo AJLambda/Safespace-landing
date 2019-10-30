@@ -12,6 +12,10 @@
       margin-top: 30px;
       margin-bottom: 60px;
       font-size: 25px;
+
+      @media (max-width: "425px") {
+        font-weight: 600;
+      }
     }
   }
 
@@ -26,6 +30,12 @@
       margin-top: 30px;
       margin-bottom: 60px;
       font-size: 25px;
+    }
+
+    @media (max-width: 425px) {
+      h2 {
+        margin-bottom: 30px;
+      }
     }
   }
 
@@ -43,6 +53,7 @@
     }
 
     p {
+      font-family: "CircularStd", sans-serif;
       padding-left: 20%;
       padding-right: 20%;
     }
@@ -71,6 +82,19 @@
     }
     &:focus {
       background-color: #3bbfc0;
+    }
+
+    @media (max-width: "425px") {
+      width: 300px;
+      margin: 0px auto 60px auto;
+      // box-shadow: none;
+    }
+
+    @media (max-width: "325px") {
+      font-size: 14px;
+      width: 260px;
+      margin: 0px auto 60px auto;
+      // box-shadow: none;
     }
   }
 
@@ -105,6 +129,10 @@
     z-index: 2;
     margin-top: 150px;
     margin-bottom: 100px;
+
+    @media (max-width: "425px") {
+      margin-top: 80px;
+    }
   }
 
   .main-cards {
@@ -128,6 +156,18 @@
       &:hover {
         box-shadow: none;
         transition: box-shadow 0.3s ease-in-out;
+      }
+    }
+    @media (max-width: "425px") {
+      flex-direction: column;
+
+      .card {
+        width: 90% !important;
+        margin: 30px auto !important;
+      }
+
+      .main-card {
+        // box-shadow: none;
       }
     }
   }
@@ -160,13 +200,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: "425px") {
+    flex-direction: column;
+  }
 }
 
 .step-item {
   p {
-    font-style: "CircularStd", sans-serif;
+    font-family: "CircularStd", sans-serif;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+
+  @media (max-width: "425px") {
+    margin-bottom: 50px;
   }
 }

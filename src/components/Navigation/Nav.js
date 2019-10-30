@@ -31,6 +31,7 @@ const Navigation = () => {
             height="50"
             class="d-inline-block align-top"
             alt=""
+            className="nav-logo-bubble"
           />
           <div className="nav-title-wrapper">
             <div className="nav-title">Safespace</div>

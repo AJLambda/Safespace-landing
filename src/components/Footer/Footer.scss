@@ -5,8 +5,19 @@
   background-size: 100% 100%;
   color: white;
 
+  @media (max-width: 425px) {
+    height: 300px;
+    background-image: none;
+    background-color: #f8f9fa;
+    color: black;
+  }
+
   .contact {
     padding-top: 200px;
+
+    @media (max-width: "425px") {
+      padding: 20px;
+    }
   }
 
   .footer-container {
@@ -26,8 +37,9 @@
     }
   }
   .copyright-text {
-    margin: 10px 12% 0 12%;
-    text-align: left;
+    // margin: 10px 12% 0 12%;
+    // text-align: left;
+    margin-top: 40px;
     font-size: 12px;
 
     .terms {
@@ -63,23 +75,36 @@
   }
 
   .left-box {
-    margin-top: 30px;
+    // margin-top: 30px;
     width: 50%;
 
     .site-name {
       font-family: "Bungee", sans-serif;
     }
 
+    .site-text-mobile {
+      display: none;
+      @media (max-width: "425px") {
+        display: block;
+      }
+    }
+
+    .site-text {
+      @media (max-width: "425px") {
+        display: none;
+      }
+    }
+
     p {
-      padding-right: 50px;
+      padding-right: 40%;
     }
   }
   .right-box {
-    margin-top: 30px;
+    // margin-top: 30px;
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
 
     h6 {
       font-family: "Bungee", sans-serif;
@@ -89,6 +114,10 @@
       display: flex;
       flex-direction: column;
 
+      @media (max-width: "425px") {
+        color: black;
+      }
+
       a {
         color: white;
 
@@ -97,11 +126,16 @@
           cursor: pointer;
           text-decoration: none;
         }
+
+        @media (max-width: "425px") {
+          color: black;
+        }
       }
     }
     .product {
       display: flex;
       flex-direction: column;
+      margin-left: 25%;
 
       a {
         color: white;
@@ -110,6 +144,10 @@
           color: rgb(211, 211, 211);
           cursor: pointer;
           text-decoration: none;
+        }
+
+        @media (max-width: "425px") {
+          color: black;
         }
       }
     }
