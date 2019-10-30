@@ -8,6 +8,7 @@ export default function CTA() {
   return (
     <>
       <div className="filler"></div>
+      {/* Carousel */}
       <Carousel
         infiniteLoop
         autoPlay
@@ -20,39 +21,63 @@ export default function CTA() {
       >
         <div className="slide-wrap" id="one">
           <div className="slide-content">
-            <h1>Step By Step Programs</h1>
+            <h1>Schedule Text Affirmations</h1>
             <p>
-              Our step by step programs provide you with information and tools
-              to have peace of mind
+              We make it easy to schedule positive text reminders to yourself or
+              others throughout the day
             </p>
-            <Button className="cta-btn">Sign up</Button>
+            <Button
+              className="cta-btn"
+              href="https://safespace-frontend.netlify.com/"
+            >
+              Sign up
+            </Button>
           </div>
         </div>
         <div className="slide-wrap" id="two">
           <div className="slide-content">
-            <h1>Evidence-Based Psychology</h1>
+            <h1>Pschiatrist-Based Methods</h1>
             <p>
               Safespace uses evidence-based psychology to help you tackle mental
               health challenges and develop your mental skills
             </p>
-            <Button className="cta-btn">Sign up</Button>
+            <Button
+              className="cta-btn"
+              href="https://safespace-frontend.netlify.com/"
+            >
+              Sign up
+            </Button>
+          </div>
+        </div>
+
+        <div className="slide-wrap" id="four">
+          <div className="slide-content">
+            <h1>Negativity & Depression</h1>
+            <p>
+              Work through unwanted thoughts and behaviors by creating healthy
+              mental habits with proven techniques
+            </p>
+            <Button
+              className="cta-btn"
+              href="https://safespace-frontend.netlify.com/"
+            >
+              Sign up
+            </Button>
           </div>
         </div>
         <div className="slide-wrap" id="three">
           <div className="slide-content">
-            <h1>Mental Health Check</h1>
-            <p>Everbody has mental health, click here to learn yours</p>
-            <Button className="cta-btn">Sign up</Button>
-          </div>
-        </div>
-        <div className="slide-wrap" id="four">
-          <div className="slide-content">
-            <h1>Sadness & Depression</h1>
+            <h1>Learn To Live Positive</h1>
             <p>
-              Work through unwanted thoughts and behaviors by creating healthy
-              habits with proven techniques
+              Train your mind to think positively and you will see the results.
+              Happiness and motivation is a mindset, remind yourself!
             </p>
-            <Button className="cta-btn">Sign up</Button>
+            <Button
+              className="cta-btn"
+              href="https://safespace-frontend.netlify.com/"
+            >
+              Sign up
+            </Button>
           </div>
         </div>
       </Carousel>

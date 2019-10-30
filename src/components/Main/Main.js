@@ -3,7 +3,8 @@ import mainImg from "../Images/cta1new.png";
 import mainImg2 from "../Images/cta2new.png";
 import mainImg3 from "../Images/cta3new.png";
 import chatImg from "../Images/chatbub3.png";
-import chatImg1 from "../Images/chatbub.png";
+import chatImg1 from "../Images/chatbub4.png";
+import chatImg2 from "../Images/brain.png";
 import stressImg from "../Images/stress.svg";
 import anxietyImg from "../Images/anxiety.svg";
 import depressionImg from "../Images/depression.svg";
@@ -32,7 +33,7 @@ export default function Main() {
             className="chat-img"
             style={{ height: "100px", width: "100px" }}
           />
-          <h2>Share your thoughts</h2>
+          <h2>Share your feelings</h2>
         </div>
         <div className="step-wrapper">
           <div className="step-item">
@@ -49,7 +50,7 @@ export default function Main() {
               alt="avatar"
               style={{ height: "230px", width: "263px" }}
             />
-            <p>Schedule your texts</p>
+            <p>Schedule your text reminders</p>
           </div>
           <div className="step-item">
             <img
@@ -57,10 +58,15 @@ export default function Main() {
               alt="avatar"
               style={{ height: "230px", width: "263px" }}
             />
-            <p>Receive positive reminders</p>
+            <p>Receive positive messages</p>
           </div>
         </div>
-        <Button className="main-btn1">Start Sending Positive Reminders</Button>
+        <Button
+          className="main-btn1"
+          href="https://safespace-frontend.netlify.com/"
+        >
+          Start Sending Positive Reminders
+        </Button>
       </section>
       <div className="wave-div1">
         <img src={waveDiv1} alt="wave divider"></img>
@@ -76,48 +82,48 @@ export default function Main() {
             className="chat-img"
             style={{ height: "100px", width: "100px" }}
           />
-          <h2>Program Categories</h2>
+          <h2>Challenge negative thoughts</h2>
         </div>
         <div className="main-cards">
           <Card
             className="main-card"
-            style={{ width: "270px", height: "360px" }}
+            style={{ width: "270px", height: "360px", textAlign: "left" }}
           >
             <CardImg src={stressImg} alt="Card image cap" />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>Stress and Anxiety</CardTitle>
+              {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Stress affects everyone at work and home. Send yourself positive
+                reminders throughout the day for a calmer mind.
               </CardText>
             </CardBody>
           </Card>
           <Card
             className="main-card"
-            style={{ width: "270px", height: "360px" }}
+            style={{ width: "270px", height: "360px", textAlign: "left" }}
           >
             <CardImg src={depressionImg} alt="Card image cap" />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>Sadness and Depression</CardTitle>
+              {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                More than 300 million people worldwide suffer from depression.
+                Rewire your mind now, it's never too late!
               </CardText>
             </CardBody>
           </Card>
           <Card
             className="main-card"
-            style={{ width: "270px", height: "360px" }}
+            style={{ width: "270px", height: "360px", textAlign: "left" }}
           >
             <CardImg src={anxietyImg} alt="Card image cap" />
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>Loneliness and Isolation</CardTitle>
+              {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Feeling lonely? Remind yourself to reach out and talk about your
+                thoughts and feelings with others.
               </CardText>
             </CardBody>
           </Card>
@@ -130,19 +136,24 @@ export default function Main() {
       <section className="bottom-cta">
         <div className="main-header3">
           <img
-            src={chatImg1}
-            alt="chat bubble"
+            src={chatImg2}
+            alt="brain bubble"
             className="chat-img"
             style={{ height: "100px", width: "100px" }}
           />
-          <h2>Become Your Own Therapist</h2>
+          <h2>Rewire your mind</h2>
           <p>
-            We offer evidence-based treatment programs adapted to the challenges
-            you are facing. You will be introduced to the stories of other
-            people who have faced similar challenges as you, and their way
-            through treatment.
+            Safespace offers a safe and effective way of overcoming mental
+            obstacles. Whether you would like to increase productivity, decrease
+            negative behaviors, or send out encouraging texts, we are here to
+            make your life easier.
           </p>
-          <Button className="main-btn2">Find Out More</Button>
+          <Button
+            className="main-btn2"
+            href="https://safespace-frontend.netlify.com/"
+          >
+            Find Out More
+          </Button>
         </div>
       </section>
     </div>

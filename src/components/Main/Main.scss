@@ -112,6 +112,16 @@
     flex-direction: row;
     justify-content: space-around;
 
+    .card-title {
+      font-weight: bold;
+      font-family: "CircularStd", sans-serif;
+    }
+
+    .card-text {
+      font-family: "CircularStd", sans-serif;
+      font-size: 14px;
+    }
+
     .main-card {
       box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.06);
 

@@ -42,8 +42,8 @@ export default function Footer() {
           <div className="left-box">
             <h6 className="site-name">SAFESPACE</h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              porttitor nibh eget imperdiet facilisis.
+              Here to help build a healthier, happier you. A text a day might
+              just keep the doctor away.
             </p>
           </div>
 

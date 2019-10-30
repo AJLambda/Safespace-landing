@@ -35,7 +35,7 @@ const Navigation = () => {
           <div className="nav-title-wrapper">
             <div className="nav-title">Safespace</div>
             <div className="nav-undertitle">
-              building healthy minds and hearts
+              the safe way to increase positivity
             </div>
           </div>
         </NavbarBrand>
