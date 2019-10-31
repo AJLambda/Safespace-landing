@@ -7,10 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   Button
 } from "reactstrap";
 import NavLogo from "../Images/safespacelogo1.png";
@@ -23,13 +19,14 @@ const Navigation = () => {
 
   return (
     <div>
+      <div className="filler"></div>
       <Navbar className="navbar" light expand="md" fixed={"top"}>
         <NavbarBrand href="/">
           <img
             src={NavLogo}
             width="50"
             height="50"
-            class="d-inline-block align-top"
+            // className="d-inline-block align-top"
             alt=""
             className="nav-logo-bubble"
           />
@@ -44,12 +41,10 @@ const Navigation = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="https://safespace-frontend.netlify.com/">
-                Sign in
-              </NavLink>
+              <NavLink href="http://localhost:3001">Sign in</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://safespace-frontend.netlify.com/">
+              <NavLink href="http://localhost:3001">
                 <Button className="signup-btn" color="primary">
                   Sign up
                 </Button>

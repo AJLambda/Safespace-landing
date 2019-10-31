@@ -16,7 +16,6 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button
 } from "reactstrap";
 import "./Main.scss";
@@ -40,7 +39,7 @@ export default function Main() {
             <img
               src={mainImg}
               alt="avatar"
-              style={{ height: "230px", width: "263px;" }}
+              style={{ height: "230px", width: "263px" }}
             />{" "}
             <p>Create your account</p>
           </div>

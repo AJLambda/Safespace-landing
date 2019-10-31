@@ -221,6 +221,10 @@
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
+
+    @media (max-width: "425px") {
+      font-size: 18px;
+    }
   }
 
   @media (max-width: "425px") {

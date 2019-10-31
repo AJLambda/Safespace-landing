@@ -52,13 +52,13 @@ export default function Footer() {
             <div className="links">
               <h6>USEFUL LINKS</h6>
               <a href="https://safespace-frontend.netlify.com">Login</a>
-              <a>Blog</a>
+              <a href="#">Blog</a>
               {/* <a>Contact Us</a> */}
             </div>
             <div className="product">
               <h6>PRODUCT</h6>
-              <a>Features</a>
-              <a>Pricing</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
             </div>
           </div>
         </div>

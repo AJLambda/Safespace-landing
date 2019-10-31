@@ -20,6 +20,7 @@ nav {
 
     .nav-undertitle {
       font-size: 7px !important;
+      font-family: "CircularStd", sans-serif;
     }
   }
 
@@ -75,4 +76,8 @@ nav {
       height: 35px;
     }
   }
+}
+
+.filler {
+  height: 6rem;
 }
