@@ -1,4 +1,4 @@
-![Imgur]()
+![Imgur](https://i.ibb.co/9W4ZrJb/Screen-Shot-2019-10-30-at-11-30-24-PM.png)
 
 This is the Landing-page portion of the application * <br />
   Deploy: https://safespace-landing.netlify.com/ 
